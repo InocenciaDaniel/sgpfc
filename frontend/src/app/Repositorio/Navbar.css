@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #34495e;
+    padding: 20px;
+    color: white;
+    width: 100%; /* Certificando-se de que ocupa toda a largura */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+.navbar form {
+  display: flex;
+}
+
+.navbar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 25vw;;
+}
+
+.navbar button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #c0392b;
+}

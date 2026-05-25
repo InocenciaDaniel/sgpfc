@@ -1,0 +1,58 @@
+h5 {
+    font-weight: 600;
+    font-size: 25px !important;
+}
+.table-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-input-icon-left, .p-input-icon-right {
+    position: relative;
+    display: inline-block;
+}
+
+.table-custom,
+.p-datatable-header {
+    background-color: #000;
+    color: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+    border: none;
+}
+
+.p-paginator-bottom, .p-paginator, .p-component,
+.p-paginator-page, .p-paginator-element, .p-link, .p-paginator-page-start, .p-paginator-page-end, 
+.p-highlight {
+    background-color: #191c24 !important;
+    border: none;
+}
+
+.table-custom th, .table-custom td {
+    padding: 10px 20px;
+}
+
+.table-custom th {
+    background-color: #191c24;
+    color: #ffffff;
+}
+
+.table-custom tr {
+    border-bottom: 1px solid #191c24;
+    color: #d9e2eb88;
+}
+
+.table-custom tr{
+    background-color: #191c24;
+}
+
+.table-custom tr:last-of-type {
+    border-bottom: 2px solid #6c7293;
+}
+
+.botao-novo {
+    background-color: #0090e7 !important;
+}

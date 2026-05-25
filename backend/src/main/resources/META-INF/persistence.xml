@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.ucan.pfc_backend_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.ucan.pfc.backend.entities.Regulamento</class>
+    <class>com.ucan.pfc.backend.entities.Conta</class>
+    <class>com.ucan.pfc.backend.entities.Sexo</class>
+    <class>com.ucan.pfc.backend.entities.TurmaEstudante</class>
+    <class>com.ucan.pfc.backend.entities.Utilizador</class>
+    <class>com.ucan.pfc.backend.entities.Curso</class>
+    <class>com.ucan.pfc.backend.entities.Turma</class>
+    <class>com.ucan.pfc.backend.entities.Semestre</class>
+    <class>com.ucan.pfc.backend.entities.TipoConta</class>
+    <class>com.ucan.pfc.backend.entities.AnoLectivo</class>
+    <class>com.ucan.pfc.backend.entities.Disciplina</class>
+    <class>com.ucan.pfc.backend.entities.TarefaRealizadaEstudante</class>
+    <class>com.ucan.pfc.backend.entities.ConvenioCientifico</class>
+    <class>com.ucan.pfc.backend.entities.LocalRealizacao</class>
+    <class>com.ucan.pfc.backend.entities.Tarefa</class>
+    <class>com.ucan.pfc.backend.entities.PreRequisito</class>
+    <class>com.ucan.pfc.backend.entities.Cronograma</class>
+    <class>com.ucan.pfc.backend.entities.Projecto</class>
+    <class>com.ucan.pfc.backend.entities.LinhaPesquisa</class>
+    <class>com.ucan.pfc.backend.entities.TemaHistoricoAprovacao</class>
+    <class>com.ucan.pfc.backend.entities.Tema</class>
+    <class>com.ucan.pfc.backend.entities.AreaConhecimento</class>
+    <class>com.ucan.pfc.backend.entities.ActividadesAcademica</class>
+    <class>com.ucan.pfc.backend.entities.EntregasEstudante</class>
+    <class>com.ucan.pfc.backend.entities.ResultadoPlagio</class>
+    <class>com.ucan.pfc.backend.entities.Presenca</class>
+    <class>com.ucan.pfc.backend.entities.DocumentoJustificativa</class>
+    <class>com.ucan.pfc.backend.entities.JustificativaFalta</class>
+    <class>com.ucan.pfc.backend.entities.Ficheiro</class>
+    <class>com.ucan.pfc.backend.entities.PlagioFicheiro</class>
+    <class>com.ucan.pfc.backend.entities.Universidade</class>
+    <class>com.ucan.pfc.backend.entities.JustificativaProjecto</class>
+    <class>com.ucan.pfc.backend.entities.IrregularidadeProjecto</class>
+    <class>com.ucan.pfc.backend.entities.OrientadorProposto</class>
+    <class>com.ucan.pfc.backend.entities.AvaliacaoEntregasEstudante</class>
+    <class>com.ucan.pfc.backend.entities.TarefasEntregasEstudante</class>
+    <class>com.ucan.pfc.backend.entities.Comentarios</class>
+    <class>com.ucan.pfc.backend.entities.AvaliacaoOrientador</class>
+    <class>com.ucan.pfc.backend.entities.AvaliacaoPeriodo</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/sgpfc_db?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="sgpfc"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Password123#@!"/>
+    </properties>
+  </persistence-unit>
+</persistence>
